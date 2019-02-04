@@ -9,25 +9,29 @@
 /* Begin PBXBuildFile section */
 		F5FEBD441E7A102B00565BE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FEBD431E7A102B00565BE5 /* AppDelegate.swift */; };
 		F5FEBD461E7A102B00565BE5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F5FEBD451E7A102B00565BE5 /* GameScene.sks */; };
-		F5FEBD481E7A102B00565BE5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F5FEBD471E7A102B00565BE5 /* Actions.sks */; };
 		F5FEBD4A1E7A102B00565BE5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FEBD491E7A102B00565BE5 /* GameScene.swift */; };
 		F5FEBD4C1E7A102B00565BE5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FEBD4B1E7A102B00565BE5 /* GameViewController.swift */; };
 		F5FEBD4F1E7A102B00565BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FEBD4D1E7A102B00565BE5 /* Main.storyboard */; };
-		F5FEBD511E7A102B00565BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FEBD501E7A102B00565BE5 /* Assets.xcassets */; };
 		F5FEBD541E7A102B00565BE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FEBD521E7A102B00565BE5 /* LaunchScreen.storyboard */; };
+		F5FEBD5C1E7A111300565BE5 /* CatAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FEBD5B1E7A111300565BE5 /* CatAssets.xcassets */; };
+		F5FEBD5E1E7A11A300565BE5 /* CatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FEBD5D1E7A11A300565BE5 /* CatNode.swift */; };
+		F5FEBD611E7A196900565BE5 /* SnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F5FEBD5F1E7A196900565BE5 /* SnowParticle.sks */; };
+		F5FEBD621E7A196900565BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FEBD601E7A196900565BE5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5FEBD401E7A102B00565BE5 /* RunnerGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunnerGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FEBD431E7A102B00565BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5FEBD451E7A102B00565BE5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		F5FEBD471E7A102B00565BE5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		F5FEBD491E7A102B00565BE5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		F5FEBD4B1E7A102B00565BE5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F5FEBD4E1E7A102B00565BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F5FEBD501E7A102B00565BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5FEBD531E7A102B00565BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5FEBD551E7A102B00565BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FEBD5B1E7A111300565BE5 /* CatAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CatAssets.xcassets; sourceTree = "<group>"; };
+		F5FEBD5D1E7A11A300565BE5 /* CatNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatNode.swift; sourceTree = "<group>"; };
+		F5FEBD5F1E7A196900565BE5 /* SnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticle.sks; sourceTree = "<group>"; };
+		F5FEBD601E7A196900565BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +64,15 @@
 		F5FEBD421E7A102B00565BE5 /* RunnerGameApp */ = {
 			isa = PBXGroup;
 			children = (
+				F5FEBD5B1E7A111300565BE5 /* CatAssets.xcassets */,
+				F5FEBD5D1E7A11A300565BE5 /* CatNode.swift */,
 				F5FEBD431E7A102B00565BE5 /* AppDelegate.swift */,
 				F5FEBD451E7A102B00565BE5 /* GameScene.sks */,
-				F5FEBD471E7A102B00565BE5 /* Actions.sks */,
 				F5FEBD491E7A102B00565BE5 /* GameScene.swift */,
+				F5FEBD5F1E7A196900565BE5 /* SnowParticle.sks */,
+				F5FEBD601E7A196900565BE5 /* Assets.xcassets */,
 				F5FEBD4B1E7A102B00565BE5 /* GameViewController.swift */,
 				F5FEBD4D1E7A102B00565BE5 /* Main.storyboard */,
-				F5FEBD501E7A102B00565BE5 /* Assets.xcassets */,
 				F5FEBD521E7A102B00565BE5 /* LaunchScreen.storyboard */,
 				F5FEBD551E7A102B00565BE5 /* Info.plist */,
 			);
@@ -133,10 +139,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5FEBD4F1E7A102B00565BE5 /* Main.storyboard in Resources */,
+				F5FEBD5C1E7A111300565BE5 /* CatAssets.xcassets in Resources */,
 				F5FEBD461E7A102B00565BE5 /* GameScene.sks in Resources */,
-				F5FEBD511E7A102B00565BE5 /* Assets.xcassets in Resources */,
 				F5FEBD541E7A102B00565BE5 /* LaunchScreen.storyboard in Resources */,
-				F5FEBD481E7A102B00565BE5 /* Actions.sks in Resources */,
+				F5FEBD621E7A196900565BE5 /* Assets.xcassets in Resources */,
+				F5FEBD611E7A196900565BE5 /* SnowParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +156,7 @@
 			files = (
 				F5FEBD4A1E7A102B00565BE5 /* GameScene.swift in Sources */,
 				F5FEBD4C1E7A102B00565BE5 /* GameViewController.swift in Sources */,
+				F5FEBD5E1E7A11A300565BE5 /* CatNode.swift in Sources */,
 				F5FEBD441E7A102B00565BE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
